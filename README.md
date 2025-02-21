@@ -29,7 +29,7 @@ Add the following to your `Package.swift` file:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/yourcompany/notification-sdk-ios.git", from: "1.0.0")
+    .package(url: "https://github.com/NISYAZILIM/cmt-ios-sdk.git", from: "1.0.0")
 ]
 ```
 

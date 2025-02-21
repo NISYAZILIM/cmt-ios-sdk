@@ -50,7 +50,7 @@ class NISAPIClient {
         
         var request = URLRequest(url: endpoint.url)
         request.httpMethod = endpoint.method
-        request.setValue("Bearer \(apiKey)", forHTTPHeaderField: "Authorization")
+        request.setValue(apiKey, forHTTPHeaderField: "X-Api-Key")
         request.setValue("application/json", forHTTPHeaderField: "Content-Type")
         
         if let body = body {

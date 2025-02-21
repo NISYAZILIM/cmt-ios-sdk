@@ -47,11 +47,11 @@ extension NISEnvironment {
     var baseURL: URL {
         switch self {
         case .development:
-            return URL(string: "https://dev-api.notification.dev")!
+            return URL(string: "https://dev.ugursogukpinar.com")!
         case .staging:
-            return URL(string: "https://staging-api.notification.dev")!
+            return URL(string: "https://cmt-dev.nisyazilim.com")!
         case .production:
-            return URL(string: "https://api.notification.com")!
+            return URL(string: "https://cmt.nisyazilim.com")!
         case .custom(let config):
             return config.baseURL
         }
